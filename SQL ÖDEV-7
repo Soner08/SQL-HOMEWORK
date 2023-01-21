@@ -1,0 +1,10 @@
+1-SELECT rating, COUNT(*) FROM film
+	GROUP BY rating;
+  
+2-SELECT replacement_cost,COUNT(*) FROM film
+GROUP BY replacement_cost
+HAVING count(*)>50;
+
+
+3-SELECT store_id,count(*) FROM customer
+GROUP BY store_id;
